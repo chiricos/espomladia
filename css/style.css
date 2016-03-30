@@ -1,0 +1,403 @@
+
+
+body{
+    background: white;
+    border-top: 4px solid #e99323;
+}
+
+.wrapper{
+    margin: auto;
+    width: 1200px;
+}
+
+header{
+
+}
+
+nav{
+    background: #3586c7;
+    margin-top: -4px;
+}
+
+.redes{
+    display: inline-block;
+    float: right;
+    width: auto;
+}
+
+.redes a{
+    border-left: 1px solid white;
+    display: inline-block;
+    height: 40px;
+    line-height: 1.6;
+    vertical-align: top;
+    text-align: center;
+    width: 40px;
+}
+
+.redes a span{
+    color: white;
+    font-size: 25px;
+}
+
+.inf{
+    color: white;
+    display: inline-block;
+    line-height: 2.1;
+    vertical-align: top;
+}
+
+.inf span{
+    font-size: 18px;
+}
+
+.logos{
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+}
+
+.logos figure{
+    margin: 0;
+    flex: initial;
+    width: 50%;
+}
+
+.logo figure{
+    text-align: start;
+}
+
+.certi{
+    text-align: end;
+}
+
+.certi > p{
+    color: #3586c7;
+    font-weight: bold;
+    margin-right: 105px;
+}
+
+.certi img{
+    margin-right:40px;
+}
+
+.logo figure img{
+    width: 30%;
+}
+
+.logo img{
+    margin: 25px 40px;
+    width: 330px;
+}
+
+.img-form{
+    display: -webkit-flex;
+    display: flex;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.img-form figure{
+    flex: initial;
+    margin: 0;
+    width: 60%;
+}
+
+.img-form figure img{
+    width:100%;
+}
+
+.img-form .form{
+    background: #3586c7;
+    flex: initial;
+    width: 40%;
+}
+
+.form section{
+    background: #fbfcfc; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#fbfcfc, #fbfcfc, #d4d4d4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#fbfcfc, #fbfcfc, #d4d4d4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#fbfcfc, #fbfcfc, #d4d4d4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#fbfcfc, #fbfcfc, #d4d4d4); /* Standard syntax */
+    border-radius: 8px;
+    margin: auto;
+    text-align: center;
+    width: 90%;
+}
+
+.form h2{
+    background: #f9a437; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#f9a437, #f9a437, #f5892b); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f9a437, #f9a437, #f5892b); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f9a437, #f9a437, #f5892b); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f9a437, #f9a437, #f5892b); /* Standard syntax */
+    border-radius: 8px 8px 0 0;
+    color: white;
+    font-size: 15px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.form span{
+    color: #3586c7;
+    padding-bottom: 10px;
+    display: block;
+}
+
+
+.content-form{
+    padding: 0 30px;
+}
+
+.form input{
+    background: #fafbfb; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#eaebeb, #fafbfb, #fafbfb); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#eaebeb, #fafbfb, #fafbfb); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#eaebeb, #fafbfb, #fafbfb); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#eaebeb, #fafbfb, #fafbfb); /* Standard syntax */
+    border: none;
+    border-radius: 50px;
+    height: 34px;
+    line-height: 2.8;
+    margin: 3px 0;
+    padding: 0px 0 0 10px;
+    width: 100%;
+}
+
+.form input:focus{
+    border-radius: 50px;
+    outline-style: none;
+    outline-radius: 50px;
+    -webkit-outline-radius: 50px;
+    -o-outline-radius: 50px;
+    -moz-outline-radius: 50px;
+}
+
+.form textarea:focus{
+    border-radius: 10px;
+    outline-style: none;
+    outline-radius: 10px;
+    -webkit-outline-radius: 10px;
+    -o-outline-radius: 10px;
+    -moz-outline-radius: 10px;
+}
+.form textarea{
+    background: #fafbfb; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#eaebeb, #fafbfb, #fafbfb); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#eaebeb, #fafbfb, #fafbfb); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#eaebeb, #fafbfb, #fafbfb); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#eaebeb, #fafbfb, #fafbfb); /* Standard syntax */
+    border: none;
+    border-radius: 10px;
+    height: 100px;
+    margin: 3px 0;
+    padding: 0;
+    width: 100%;
+}
+
+.form input[type="submit"]{
+    color: #fff;
+    background: #f9a437;
+    background: -webkit-linear-gradient(#f9a437, #f9a437, #f5892b)!important;
+    background: -o-linear-gradient(#f9a437, #f9a437, #f5892b)!important;
+    background: -moz-linear-gradient(#f9a437, #f9a437, #f5892b)!important;
+    background: linear-gradient(#f9a437, #f9a437, #f5892b) !important;
+    border-color: #f9a437;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: auto;
+}
+.btn {
+
+}
+
+.slider{
+
+}
+
+.slider h3{
+    color: #3586c7;
+    font-size: 25px;
+    margin: 0 30px;
+}
+
+.ofrece{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.ofrece > div{
+    flex: inherit;
+    width: 50%;
+}
+
+.ofrece > div > h5{
+    color:#e99323;
+    font-size: 22px;
+    margin:0 22px;
+}
+
+.somos > h4{
+    color: #4d4d4d;
+    font-size: 23px;
+    margin: 0;
+}
+
+.somos p{
+    font-size: 19px;
+    color: #4d4d4d;
+}
+
+.nuestros{
+    display: flex;
+}
+
+.nuestros > section{
+    flex: inherit;
+    width: 48%;
+}
+
+.nuestros li{
+    color: #e99323;
+}
+
+.nuestros p{
+    color: #4d4d4d;
+    margin: 4px 0;
+}
+
+
+
+footer{
+    background: #4d4d4d;
+    display: flex;
+    padding:  20px 0;
+}
+
+footer > section{
+    border-right: 1px solid white;
+    flex: inherit;
+    padding:0 35px 10px;
+    width: 20%;
+}
+
+footer > section > p{
+    color: #e99323;
+    font-size: 15px;
+}
+
+footer > section > span{
+    color: white;
+    display: block;
+    font-size: 12px;
+    padding: 4px 0;
+    width: 100%;
+}
+
+footer > figure{
+    flex: inherit;
+    text-align: justify;
+    width: 20%;
+}
+
+footer > figure > img{
+    width: 100%;
+}
+
+/* =========================================
+media de 1200px
+*=========================================*/
+
+@media only screen and (max-width: 1200px) {
+
+    .wrapper{
+        width: 100%;
+    }
+
+}
+
+/* =========================================
+media de 700px
+*=========================================*/
+
+@media only screen and (max-width: 700px) {
+
+    .img-form,.ofrece{
+        display: block;
+    }
+
+    .img-form figure,.ofrece > div,.logos figure{
+
+        width: 100%;
+
+    }
+
+    .ofrece > div{
+        padding: 15px;
+    }
+
+    .img-form .form{
+        width: 100%;
+    }
+
+    footer > figure{
+        display: none;
+    }
+
+    .logos{
+        display: block;
+    }
+    .logos figure{
+        text-align: center;
+    }
+
+    .redes{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .inf{
+        display: block;
+        text-align: center;
+    }
+
+    .redes a{
+        border: none;
+    }
+
+}
+
+/* =========================================
+media de 600px
+*=========================================*/
+
+@media only screen and (max-width: 600px) {
+    footer{
+        display: block;
+    }
+
+
+
+    footer > section{
+        width: 87%;
+        text-align: center;
+    }
+}
