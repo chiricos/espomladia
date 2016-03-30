@@ -383,6 +383,10 @@ media de 700px
         border: none;
     }
 
+    .logo img{
+        margin: 0;
+    }
+
 }
 
 /* =========================================
@@ -397,7 +401,9 @@ media de 600px
 
 
     footer > section{
-        width: 87%;
+        width: 100%;
         text-align: center;
+        padding: 0;
+        border: none;
     }
 }
