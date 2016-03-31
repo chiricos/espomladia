@@ -322,6 +322,14 @@ footer > figure > img{
     width: 100%;
 }
 
+.derechos{
+    background: #204b90;
+    color: white;
+    font-size: 10px;
+    padding: 8px;
+    text-align: center;
+}
+
 /* =========================================
 media de 1200px
 *=========================================*/
