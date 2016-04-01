@@ -91,24 +91,23 @@ nav{
 }
 
 .banner-back{
-    position: absolute;
 }
 
 .banner-front{
-    position: absolute;
+    position: relative;
+    top: -373px;
+    width: 90%;
     z-index: 99;
 }
 
 .img-form{
-    display: -webkit-flex;
-    display: flex;
+    display: block;
     margin: 20px 0;
     width: 100%;
 }
 
 .img-form figure{
-    flex: initial;
-    position: relative;
+    display: inline-block;
     margin: 0;
     width: 60%;
 }
@@ -119,8 +118,10 @@ nav{
 
 .img-form .form{
     background: #3586c7;
-    flex: initial;
-    width: 40%;
+    display: inline-block;
+    padding-bottom: 25px;
+    vertical-align: top;
+    width: 38%;
 }
 
 .form section{
@@ -246,7 +247,7 @@ nav{
 .slider h3{
     color: #3586c7;
     font-size: 25px;
-    margin: 0 30px;
+    margin: -352px 30px 8px;
 }
 
 .ofrece{
