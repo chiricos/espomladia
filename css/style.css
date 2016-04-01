@@ -90,6 +90,15 @@ nav{
     width: 330px;
 }
 
+.banner-back{
+    position: absolute;
+}
+
+.banner-front{
+    position: absolute;
+    z-index: 99;
+}
+
 .img-form{
     display: -webkit-flex;
     display: flex;
@@ -99,6 +108,7 @@ nav{
 
 .img-form figure{
     flex: initial;
+    position: relative;
     margin: 0;
     width: 60%;
 }
