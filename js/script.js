@@ -7,7 +7,7 @@ $(window).load(function() {
             nextText: "Next",
             direction: "horizontal",
             animation: "slide",
-            slideshowSpeed: 3000, 
+            slideshowSpeed: 5000, 
             animationSpeed: 1600,   
         });
     $('.banner-back').flexslider(
@@ -18,7 +18,7 @@ $(window).load(function() {
             nextText: "Next",
             direction: "horizontal",
             animation: "slide",
-            slideshowSpeed: 3000,
+            slideshowSpeed: 5000,
             animationSpeed: 1600,  
         });
     $('.banner-front').flexslider(
@@ -28,7 +28,7 @@ $(window).load(function() {
             prevText: "Previous",           //String: Set the text for the "previous" directionNav item
             nextText: "Next",
             direction: "horizontal",
-            slideshowSpeed: 3000,
+            slideshowSpeed: 5000,
             animationSpeed: 1600,  
         });
 });
