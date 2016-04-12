@@ -138,10 +138,10 @@ nav{
 
 .form h2{
     background: #f9a437; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#f9a437, #f9a437, #f5892b); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#f9a437, #f9a437, #f5892b); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#f9a437, #f9a437, #f5892b); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#f9a437, #f9a437, #f5892b); /* Standard syntax */
+    background: -webkit-linear-gradient(#1A64AF, #1A64AF, #3586C7); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#1A64AF, #1A64AF, #3586C7); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#1A64AF, #1A64AF, #3586C7); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#1A64AF, #1A64AF, #3586C7); /* Standard syntax */
     border-radius: 8px 8px 0 0;
     color: white;
     font-size: 15px;
@@ -209,10 +209,10 @@ nav{
 .form input[type="submit"]{
     color: #fff;
     background: #f9a437;
-    background: -webkit-linear-gradient(#f9a437, #f9a437, #f5892b)!important;
-    background: -o-linear-gradient(#f9a437, #f9a437, #f5892b)!important;
-    background: -moz-linear-gradient(#f9a437, #f9a437, #f5892b)!important;
-    background: linear-gradient(#f9a437, #f9a437, #f5892b) !important;
+    background: -webkit-linear-gradient(#1A64AF, #3586C7, #1A64AF) !important;
+    background: -o-linear-gradient(#1A64AF, #3586C7, #1A64AF) !important;
+    background: -moz-linear-gradient(#1A64AF, #3586C7, #1A64AF) !important;
+    background: linear-gradient(#1A64AF, #3586C7, #1A64AF) !important;
     border-color: #f9a437;
     display: inline-block;
     padding: 6px 12px;
@@ -351,6 +351,8 @@ media de 1200px
         width: 100%;
     }
 
+
+
 }
 
 /* =========================================
@@ -365,7 +367,7 @@ media de 700px
 
     .img-form figure,.ofrece > div,.logos figure{
 
-        width: 100%;
+        width: 90%;
 
     }
 
@@ -425,4 +427,61 @@ media de 600px
         padding: 0;
         border: none;
     }
+}
+
+/* =========================================
+media de 980px
+*=========================================*/
+
+
+@media only screen and (max-width: 1100px) {
+
+    .banner-front{
+        top: -305px;
+    }
+
+    .slider h3{
+        margin: -240px 30px 8px;
+    }
+
+
+}
+
+/* =========================================
+media de 800px
+*=========================================*/
+
+@media only screen and (max-width: 800px) {
+
+    .img-form .form{
+        margin: auto;
+        width: 50%;
+    }
+
+    .slider h3{
+        margin: 0px 30px 8px;
+    }
+
+    .img-form figure{
+        display: none;
+    }
+
+    .img-form{
+        text-align: center;
+    }
+     .logo img{
+        width: 100%
+    }
+}
+
+/* =========================================
+media de 360px
+*=========================================*/
+
+@media only screen and (max-width: 360px) {
+
+    .img-form .form{
+        width: 90%;
+    }
+
 }
