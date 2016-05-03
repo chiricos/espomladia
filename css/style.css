@@ -301,13 +301,15 @@ footer{
     background: #4d4d4d;
     display: flex;
     padding:  20px 0;
+    text-align: center;
 }
 
 footer > section{
     border-right: 1px solid white;
     flex: inherit;
+    margin: auto;
     padding:0 35px 10px;
-    width: 20%;
+    width: 30%;
 }
 
 footer > section > p{
