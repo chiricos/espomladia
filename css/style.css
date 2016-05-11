@@ -1,5 +1,4 @@
 
-
 body{
     background: white;
     border-top: 4px solid #e99323;
@@ -51,6 +50,11 @@ nav{
     font-size: 18px;
 }
 
+.inf li{
+    display: inline-block;
+        margin-left: 20px;
+}
+
 .logos{
     display: -webkit-flex;
     display: flex;
@@ -95,7 +99,7 @@ nav{
 
 .banner-front{
     position: relative;
-    top: -373px;
+    top: -397px;
     width: 90%;
     z-index: 99;
 }
