@@ -256,12 +256,13 @@ nav{
 }
 
 .ofrece{
-    display: flex;
     margin-bottom: 30px;
 }
 
 .ofrece > div{
-    flex: inherit;
+    display: inline-block;
+    margin-left: -3px;
+    vertical-align: top;
     width: 50%;
 }
 
@@ -283,11 +284,19 @@ nav{
 }
 
 .nuestros{
-    display: flex;
+      display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex; 
 }
 
 .nuestros > section{
-    flex: inherit;
+    -webkit-box-flex: inherit;      /* OLD - iOS 6-, Safari 3.1-6 */
+  -moz-box-flex: inherit;         /* OLD - Firefox 19- */
+  -webkit-flex: inherit;          /* Chrome */
+  -ms-flex: inherit;              /* IE 10 */
+  flex: inherit; 
     width: 48%;
 }
 
